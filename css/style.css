@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    padding-top: 5px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Estilos padrão para o iframe */
+iframe {
+    width: 1024px;
+    height: 620px;
+    margin-top: 8px;
+}
+/* Media query para dispositivos móveis com largura de até 768 pixels */
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 100%; /* Ocupa toda a largura do contêiner pai */
+        height: 300px; /* Altura ajustada para dispositivos móveis */
+    }
+}
+
+/* Media query para telas maiores (por exemplo, largura mínima de 1200 pixels) */
+@media only screen and (min-width: 1200px) {
+    p {
+        max-width:1024px; /* Define uma largura máxima para o parágrafo */
+    }
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 5px;
+}
